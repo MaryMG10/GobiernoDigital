@@ -1,0 +1,2 @@
+export const GET_POKEMONLIST = "GET_POKEMONLIST";
+export const GET_POKEMON = "GET_POKEMON";

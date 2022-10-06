@@ -1,0 +1,13 @@
+.App {
+  background: #6bd32f93;
+  min-height: 100vh !important;
+  padding-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}

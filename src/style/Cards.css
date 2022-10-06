@@ -1,0 +1,39 @@
+.pokegallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-between;
+  margin: 10px;
+}
+
+.card {
+  width: 20rem;
+  margin: 10px;
+  border-radius: 25px !important;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.27) !important;
+  transition: all 0.5s linear;
+}
+
+.card-body {
+  padding: 2rem 0 !important;
+}
+
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.img-fluid {
+  transition: all 0.2s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.3);
+}
